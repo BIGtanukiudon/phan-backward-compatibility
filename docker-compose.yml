@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  phan:
+    image: phanphp/phan:latest
+    volumes:
+      - ./src:/mnt/src
+      - ./log:/mnt/log
